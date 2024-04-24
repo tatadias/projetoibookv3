@@ -1,0 +1,95 @@
+
+.estrutura {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 650px;
+    }
+    
+    .container li{
+        list-style: none;
+        }
+        .book {
+            margin-top: 10px;
+        }
+    
+        .book li {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 0px 700px 2% -30px;
+            border: 1px solid black;
+            border-radius: 17px;
+        }
+        .book img {
+            margin-right: 20px; 
+            max-width: 200px;
+            width: 100%;
+            box-shadow: 5px 5px 10px;
+            cursor: pointer;
+        } 
+        .book img#livro-pequeno{
+            height: 298px;
+        }
+        
+        .book h3 {
+            color:  #1a237e;
+            font-family: "Arial";
+            text-align: justify;
+            margin: -283px 0px 21px 220px;
+        }
+        .book h5 {
+            color: black;
+            font-family: "Arial";
+            text-align: justify;
+            margin: 19px 0px 22px 220px;
+        }
+        .book h4 {
+            font-family: "Arial";
+            color: black;
+            text-align: center;
+            margin: auto 170px 10px 223px;
+            font-size: 99%;
+        }
+        .book p {
+            color: black;
+            font-family: "Arial";
+            width: 50%;
+            text-align: justify;
+            background-color: white;
+            margin-left: 50%;
+            box-shadow: 1px 3px 11px 4px black;
+        }
+        .book2 {
+        margin: 5px 10px 0px 50%;
+        }
+        
+        .buttons {
+            padding-top: 20px; 
+        }
+        .button {
+            background-color: #1a237e;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+            margin-left: 8px;
+        }
+        .button:hover {
+            background-color: black;
+            color: #2ecc71;
+        }
+        
+        
+        .valor {
+            font-family: "Arial";
+            margin: 1px 10px 0px 10px;
+            font-size: 29px;
+        }
+        .dropdown {
+            font-family: "Arial";
+        }
+    
+        .dropdown span {
+         background-color: #1a237e;
+        }
