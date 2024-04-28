@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import CardLivro from '../components/CardLivro';
+import Rodape from '../components/Rodape';
 
 const prevenda = [
   {
@@ -19,7 +20,7 @@ const prevenda = [
   },
   {
     imagem: 'https://m.media-amazon.com/images/I/91+1SUO3vUL._SL1500_.jpg',
-    titulo: 'A Guerra dos Tronos : As Crônicas de Gelo e Fogo',
+    titulo: 'A Guerra dos Tronos: As Crônicas de Gelo e Fogo',
     autor: 'George R. R. Martin',
     descricao: 'Edição em Português',
     frete: 'Frete grátis',
@@ -61,8 +62,8 @@ function PreVenda() {
                 ))}
             </ul>
         </div>
-
     </div>
+    <Rodape/>
     </>
 );
 }

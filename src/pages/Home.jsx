@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/home.css';
 import Header from '../components/Header';
 import ListagemLivros from '../components/ListagemLivros';
 import Navbar from '../components/Navbar';

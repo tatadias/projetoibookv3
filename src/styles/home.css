@@ -1,0 +1,44 @@
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+.categorias h5 {
+    margin-top: 0;
+    color: #333;
+}
+
+.categorias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categorias ul li {
+    padding: 0.5rem 0;
+}
+
+.categorias ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.categorias ul li a:hover {
+    color: #4CAF50;
+}
+
+.destaque {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.destaque h2 {
+    color: #333;
+}

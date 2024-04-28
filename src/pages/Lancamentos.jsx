@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import CardLivro from '../components/CardLivro';
+import Rodape from '../components/Rodape';
 
 const lancamentos = [
   {
@@ -61,10 +62,10 @@ function Lancamentos() {
                 ))}
             </ul>
         </div>
-
     </div>
+    <Rodape/>
     </>
 );
 }
 
-export default Lancamentos;
+export default Lancamentos;

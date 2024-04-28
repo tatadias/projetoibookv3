@@ -1,17 +1,52 @@
-div.rodape {
-    height: 150px;
+.mainrodape {
     background-color: black;
-    position: relative;
-    top: -50px;
-   }
-   div.mainrodape {
-       height: 50px;
-       background-color: black;
-   
-      }
-      
-   
-   .rodape h1 {
-       color: white;
-   
-   }
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.rodape-links,
+.rodape-social {
+    display: flex;
+}
+
+.rodape-links a,
+.rodape-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.rodape-links a:hover,
+.rodape-social a:hover {
+    color: #ccc;
+}
+
+.rodape-social a {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .rodape-content {
+        flex-direction: column;
+    }
+    
+    .rodape-links {
+        margin-bottom: 20px;
+    }
+}
