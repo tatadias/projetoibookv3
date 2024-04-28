@@ -11,6 +11,7 @@ function Rodape() {
           <a href="/">Início</a>
             <a href="/sobre-nos">Sobre</a>
             <a href="/contato">Contato</a>
+
           </div>
           <div className="rodape-social">
             <a href="https://twitter.com"><FaTwitter /></a>
